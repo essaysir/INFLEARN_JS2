@@ -1,0 +1,8 @@
+git add .  --> 처음 시작
+git status 를 통해서 git add 가 제대로 작동했는지 살펴보기
+
+그리고 
+git commit -m " " => " " (쌍따옴표) 안에는 어떤 것을 수정하고 추가했는지
+내용적기
+
+git push origin master => github 로 보내기
