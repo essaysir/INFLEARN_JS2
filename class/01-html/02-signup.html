@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>회원가입</title>
+</head>
+<body>
+    <h1> 회원가입 </h1>
+    <input type="text" placeholder=" 이메일을 입력해주세요"><br><br>
+    <!-- input tag 는 인라인 태그이므로, 줄바꿈을 해주고 싶은 경우에는 <br> -->
+    <!-- input 의 default 값은 텍스트이다.  -->
+    <input type="text" placeholder=" 이름을 입력해주세요"><br><br>
+    <input type="password" placeholder=" 비밀번호를 입력해주세요"><br><br>
+    <input type="password" placeholder=" 비밀번호를 다시 입력해주세요"><br><br>
+    <select>    
+        <option disabled="true" selected="true">지역을 선택하세요.</option>
+        <!-- option 안에서 disabled true는 지역을 선택하세요를 선택할 수 없게하는 기능
+        이고 , selected true 는 지역을 선택하세요가 사이트를 맨처음에 들어갔을 때 선택되어 있도록 하는 것이다.-->
+        <option>서울</option>
+        <option>대전</option>
+        <option>대구</option>
+        <option>부산</option>
+    </select>
+    <br><br>
+    <input type="radio" name="gender"><span>여성</span>
+    <input type="radio" name="gender" >남성
+
+    <br><br>
+    <input type="checkbox">이용약관 개인정보 수집 및 이용에 동의합니다.
+    <hr>
+    <button>가입하기</button>
+    <!-- <input type="button" value="가입하기">  위와 동일  -->
+</body>
+</html>
